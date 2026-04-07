@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment files (NEVER push to GitHub)
+.env
+.env.local
+.env.production
+server/.env
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker volumes (local)
+mongo_data/
+mongo_backup/
